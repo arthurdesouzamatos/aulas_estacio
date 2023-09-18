@@ -1,0 +1,39 @@
+body {
+    background-color: #ff7778;
+}
+
+
+a:link {
+    color: #66FF00;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: #ccff33;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:active{
+    color: #990000;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+h1 {
+    color: blue;
+    font-size: 12px;
+}
+
+#titulo {
+    text-align: center;
+    color: red;
+}
