@@ -1,0 +1,44 @@
+p.um {
+    border-style: solid;
+    border-color: rgb(161, 146, 228);
+}
+
+p.dois {
+    border-style: solid;
+    border-color: green;
+}
+
+p.tres {
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+p.normal {
+    border: 2px solid red;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+}
+
+table, th , td {
+    border: 1px solid black;
+    margin-left: 200px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+   
+}
+th {
+    height: 50px;;
+}
