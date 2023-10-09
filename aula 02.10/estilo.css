@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(imagens/images.jpg);
+    background: url(https://w.forfun.com/fetch/46/462a5e7df03c29707da8005024f1e2f3.jpeg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -18,4 +18,42 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
 }
