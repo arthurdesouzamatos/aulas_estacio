@@ -75,3 +75,8 @@ h1 {
     background: #39dc79;
     color: #000;
 }
+
+.login-box a:hover
+{
+    color: #39dc79;
+}
